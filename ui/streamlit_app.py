@@ -135,7 +135,7 @@ if submitted and uploaded:
         # AI Feedback card (Gemini)
         if out.get("ai_feedback"):
             st.markdown("<div class='card'>", unsafe_allow_html=True)
-            st.subheader("🧠 Gemini Resume Coach")
+            st.subheader("🧠 AI Resume Summary")
             st.markdown(out["ai_feedback"])
             st.markdown("</div>", unsafe_allow_html=True)
 
