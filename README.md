@@ -36,11 +36,4 @@ Runs locally or can be deployed for free using **Streamlit Cloud** (UI) and **Re
 | **Language** | Python 3.10+ |
 | **Libraries** | spaCy, pdfplumber, docx2txt, scikit-learn, google-generativeai |
 
----
 
-## ⚙️ Local Setup
-
-### 1️⃣ Clone the repo
-```bash
-git clone https://github.com/fahimtenzel/ats-rescue.git
-cd ats-rescue
