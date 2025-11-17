@@ -3,7 +3,7 @@ import os
 import google.generativeai as genai
 
 # Set your Gemini API key (environment variable recommended)
-genai.configure(api_key=os.getenv("AIzaSyAct6Zlz7X8kV_6595gg6yiGxTdtUNlfUc"))
+genai.configure(api_key=os.getenv(API-KEY)
 
 def generate_resume_feedback(jd_text: str, resume_text: str, jd_match: dict, suggestions: dict):
     """
